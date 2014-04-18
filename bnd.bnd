@@ -1,0 +1,10 @@
+Service-Component: *
+-buildpath: osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	io.netty.transport;version=4.0.15.Final
+Export-Package: com.github.andlaz.netty.worker.service.api
+Import-Package: *
+Private-Package: com.github.andlaz.netty.worker.service.impl
+Bundle-Version: 1.0.0
+Bundle-Name: com.github.andlaz.netty.worker.service
